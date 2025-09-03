@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: yuya-aikw/yuya-aikw.github.io/sitemap.xml
+Sitemap: https://yuya-aikw/yuya-aikw.github.io/sitemap.xml
