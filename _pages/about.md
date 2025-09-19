@@ -6,7 +6,7 @@ subtitle: Doctoral student at Graduate School of Engineering, Nagoya University,
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_tmp.png
   image_circular: false # crops the image to make it circular
   more_info: >  
     <p>IB North Building 9F, Nagoya University</p>
