@@ -6,7 +6,6 @@ description:
 nav: true
 nav_order: 2
 ---
-## Coming soon
 
 {% include bib_search.liquid %}
 
