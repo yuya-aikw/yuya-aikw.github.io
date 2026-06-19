@@ -8,7 +8,7 @@ profile:
   align: right
   image: IMG_8825.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >  
+  more_info: >
     <p>IB North Building 9F, Nagoya University</p>
     <p>Furo-cho, Chikusa-ku</p>
     <p>Nagoya, Aichi, JAPAN</p>
@@ -26,7 +26,8 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
-<!-- 
+
+<!--
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
@@ -37,6 +38,7 @@ My name is Yuya Aikawa (相川 雄也), and I am a first-year doctoral student i
 I am a member of [Kawaguchi Lab](https://www.ucl.nuee.nagoya-u.ac.jp/).
 
 # Research Interests
+
 - Ubiquitous Computing
 - Point Cloud Processing
 - 3D Computer Vision
@@ -44,12 +46,13 @@ I am a member of [Kawaguchi Lab](https://www.ucl.nuee.nagoya-u.ac.jp/).
 - Sensor Fusion
 
 # Education
+
 - 2019.4 - 2023.3<br>
-Department of Electrical Engineering, Electronics, and Information Engineering,<br>
-School of Engineering, Nagoya University
+  Department of Electrical Engineering, Electronics, and Information Engineering,<br>
+  School of Engineering, Nagoya University
 - 2023.4 -<br>
-Department of Information and Communication Engineering,<br>
-Graduate School of Engineering, Nagoya University
+  Department of Information and Communication Engineering,<br>
+  Graduate School of Engineering, Nagoya University
 - 2023.4 -<br>
-Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation,
-Nagoya University
+  Graduate Program for Lifestyle Revolution based on Transdisciplinary Mobility Innovation,
+  Nagoya University
