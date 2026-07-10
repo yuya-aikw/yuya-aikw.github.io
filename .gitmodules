@@ -1,0 +1,4 @@
+[submodule "_3rdparty/3DWebViewer"]
+	path = _3rdparty/3DWebViewer
+	url = git@github.com:yuya-aikw/3DWebViewer.git
+	branch = al-folio-subpage
