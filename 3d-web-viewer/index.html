@@ -5,10 +5,10 @@
     // 3Dモデル各ページのドメイン名を設定するパラメータ
     const targetDomain = "https://www.yuya-aikw.me";
     
-    // Use Jekyll's relative_url filter to get the base path correctly
-    const relativeBaseUrl = "/_3rdparty/3DWebViewer";
+    // ポートフォリオ用の models.json パス
+    const jsonUrl = "/assets/json/models.json";
     
-    fetch(relativeBaseUrl + "/models.json")
+    fetch(jsonUrl)
       .then(response => response.json())
       .then(models => {
         const grid = document.getElementById("models-grid");
@@ -16,9 +16,11 @@
         models.forEach(model => {
           // ドメイン名 + JSON内のURL (例: /pages/...)
           const cardUrl = targetDomain + model.url;
-          // Optionally handle thumbnail resolving (if they are also relative to 3DWebViewer or absolute)
-          // assuming thumbnailSrc is relative to base url or root if it starts with /
-          const thumbnailSrc = model.thumbnailSrc ? (model.thumbnailSrc.startsWith('/') ? model.thumbnailSrc : relativeBaseUrl + '/' + model.thumbnailSrc) : '';
+          
+          // サムネイルが指定されている場合、絶対URLならそのまま、相対URLなら targetDomain を付与
+          const thumbnailSrc = model.thumbnailSrc ? 
+            (model.thumbnailSrc.startsWith('http') ? model.thumbnailSrc : targetDomain + (model.thumbnailSrc.startsWith('/') ? '' : '/') + model.thumbnailSrc) 
+            : '';
           
           const card = document.createElement("a");
           card.href = cardUrl;
