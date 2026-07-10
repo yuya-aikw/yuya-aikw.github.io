@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
+        },{id: "nav-3dwebviewer",
+          title: "3DWebViewer",
+          description: "Explore a collection of interactive 3D environments, point clouds, and gaussian splats rendered directly in your browser.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/3d-web-viewer/";
+          },
         },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
