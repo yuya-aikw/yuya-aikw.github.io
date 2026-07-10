@@ -1,0 +1,26 @@
+[
+  {
+    "url": "/pages/supersplat_sample_cube.html",
+    "thumbnailSrc": "",
+    "thumbnailAlt": "SuperSplat Cube Thumbnail",
+    "badge": "SuperSplat",
+    "title": "Sample Cube (Gaussian Splat)",
+    "description": "High-fidelity 3D Gaussian Splatting rendering of a sample cube environment."
+  },
+  {
+    "url": "/pages/potree_sample_cube.html",
+    "thumbnailSrc": "",
+    "thumbnailAlt": "Potree Point Cloud Thumbnail",
+    "badge": "Potree",
+    "title": "Sample Cube (Point Cloud)",
+    "description": "Interactive massive point cloud visualization utilizing Potree."
+  },
+  {
+    "url": "/pages/viser_sample_nike.html",
+    "thumbnailSrc": "",
+    "thumbnailAlt": "Viser Nike Thumbnail",
+    "badge": "Viser",
+    "title": "Nike Shoe (Static Viewer)",
+    "description": "Static 3D scene representation exported directly from Python via Viser."
+  }
+]
