@@ -14,6 +14,8 @@ on:
       - "**.js"
       - "**.liquid"
       - "**/*.md"
+      - "_3rdparty/**"
+      - ".gitmodules"
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
@@ -43,6 +45,8 @@ on:
       - "**.js"
       - "**.liquid"
       - "**/*.md"
+      - "_3rdparty/**"
+      - ".gitmodules"
       - "**.yml"
       - "Gemfile"
       - "Gemfile.lock"
@@ -71,6 +75,8 @@ jobs:
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v4
+        with:
+          submodules: true
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
