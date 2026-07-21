@@ -1,5 +1,21 @@
 [
   {
+    "url": "/pages/0001.html",
+    "thumbnailSrc": "https://data.yuya-aikw.me/thumbnail/0001.png",
+    "thumbnailAlt": "0001.png",
+    "badge": "SuperSplat",
+    "title": "アメジスト原石 (3DGS編集済み)",
+    "description": "撮影日: 2026/07/19\n機材: iphone 13 pro + マクロレンズ\nカメラ位置推定: COLMAP\n3DGS生成: EDGS"
+  },
+  {
+    "url": "/pages/0002.html",
+    "thumbnailSrc": "https://data.yuya-aikw.me/thumbnail/0002.png",
+    "thumbnailAlt": "0002.png",
+    "badge": "viser ",
+    "title": "アメジスト原石",
+    "description": "撮影日: 2026/07/19\n機材: iphone 13 pro + マクロレンズ\nカメラ位置推定: COLMAP\n3DGS生成: EDGS"
+  },
+  {
     "url": "/pages/supersplat_sample_cube.html",
     "thumbnailSrc": "https://data.yuya-aikw.me/thumbnail/cuve_supersplat.png",
     "thumbnailAlt": "SuperSplat Sample Thumbnail",
